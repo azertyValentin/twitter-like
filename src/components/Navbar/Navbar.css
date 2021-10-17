@@ -1,0 +1,17 @@
+.logo {
+    width: 50px;
+}
+
+.navbar {
+    display: inline-block;
+    padding: 20px;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid lightgray;
+}
+
+.main-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
