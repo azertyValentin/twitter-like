@@ -2,3 +2,12 @@
     border: none;
     vertical-align: top;
 }
+
+.sub-container {
+    display: inline-block;
+}
+
+.new-tweet-container {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}

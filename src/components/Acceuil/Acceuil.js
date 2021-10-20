@@ -1,4 +1,5 @@
 import NewTweet from '../NewTweet/NewTweet';
+import TweetList from '../TweetList/TweetList';
 import './Acceuil.css'
 
 function Acceuil() {
@@ -8,6 +9,7 @@ function Acceuil() {
                 <h1>Acceuil</h1>
             </div>
             <NewTweet/>
+            <TweetList/>
         </>
     )
 }

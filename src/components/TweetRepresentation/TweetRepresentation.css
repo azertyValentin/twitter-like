@@ -1,0 +1,15 @@
+.tweet-representation-container {
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tweet-header {
+    display: inline;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.tweet-content {
+    margin-left: 70px;
+}

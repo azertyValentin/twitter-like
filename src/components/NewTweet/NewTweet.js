@@ -12,12 +12,14 @@ function NewTweet() {
     }
 
     return (
-        <>
+        <div className="new-tweet-container">
             <ProfilePicture imageSize={60}/>
             <input type="text" placeholder="Quoi de neuf ?" className="textInput" onChange={draftTweetChange} maxLength="25"/>
-            <WordCount count={count}/>
-            <TweetButton disabled={count === 0}/>
-        </>
+            <div className="sub-container">
+                <WordCount count={count}/>
+                <TweetButton disabled={count === 0}/>
+            </div>
+        </div>
     )
 }
 
