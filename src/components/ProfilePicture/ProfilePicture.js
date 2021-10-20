@@ -1,10 +1,14 @@
-import logo from '../../assets/profile_picture.jpg'
 import './ProfilePicture.css'
+import {connect} from 'react-redux'
 
-function ProfilePicture({imageSize}) {
+function ProfilePicture(props) {
     return (
-        <img src={logo} alt="profile_picture" className="profile_picture" style={{width: imageSize}}/>
+        <img src={props.user.photo} alt="profile_picture" className="profile_picture" style={{width: props.imageSize}}/>
     )
 }
 
-export default ProfilePicture;
+const mapStateToProps = state => {
+    return { user: state.user }
+}
+
+export default connect(mapStateToProps)(ProfilePicture);

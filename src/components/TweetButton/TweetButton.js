@@ -1,8 +1,8 @@
 import './TweetButton.css'
 
-function TweetButton({disabled}) {
+function TweetButton({disabled, onClick}) {
     return (
-        <button disabled={disabled} className="button">Tweeter</button>
+        <button disabled={disabled} className="button" onClick={onClick}>Tweeter</button>
     )
 }
 
